@@ -38,6 +38,7 @@ import PracticalSessions from "./pages/stories/PracticalSessions";
 import EnvironmentalStewardship from "./pages/stories/EnvironmentalStewardship";
 import Apply from "./pages/Apply";
 import Contact from "./pages/Contact";
+import FloatingButtons from "./components/ui/FloatingButtons";
 
 const queryClient = new QueryClient();
 
@@ -122,6 +123,9 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+
+        {/* ✅ FloatingButtons lives here — outside Routes so it shows on every page */}
+        <FloatingButtons />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
