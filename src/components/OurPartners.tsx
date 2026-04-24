@@ -1,6 +1,5 @@
 import React from "react";
 import KATTI from "@/assets/KATTI.png";
-import KNEC from "@/assets/knec_new.png";
 import HELB from "@/assets/HELB-logo.png";
 import NITA from "@/assets/NITA-Logo.png";
 import KUCCPS from "@/assets/KUCCPS-logo.png";
@@ -9,7 +8,6 @@ import TVET from "@/assets/TVET-LOGO.png";
 
 const partners = [
   { logo: KATTI, alt: "KATTI" },
-  { logo: KNEC, alt: "KNEC" },
   { logo: HELB, alt: "HELB" },
   { logo: NITA, alt: "NITA" },
   { logo: KUCCPS, alt: "KUCCPS" },

@@ -21,6 +21,7 @@
     "noImplicitAny": false,
     "noFallthroughCasesInSwitch": false,
 
+    "ignoreDeprecations": "6.0",  // 👈 add this
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]

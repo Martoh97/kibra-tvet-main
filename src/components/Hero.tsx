@@ -28,7 +28,7 @@ const defaultSlides: HeroSlide[] = [
     image: heroImage1,
     tag: "#Kibra Tvc",
     title: "Apply for",
-    highlight: "January 2026",
+    highlight: "May 2026",
     titleEnd: "Intake",
     description: "Secure Your Spot At Kibra TVC Today. Join A Thriving Community Of Learners.",
     contentKey: "hero_slide_1",
