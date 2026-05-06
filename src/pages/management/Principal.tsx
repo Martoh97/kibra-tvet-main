@@ -27,11 +27,9 @@ const Principal = () => {
 
   const title = content?.title || "Tabitha M. Maina";
   const subtitle = content?.subtitle || "Principal, Kibra Technical and Vocational College";
-  const description = content?.description || `Welcome to Kibra Technical and Vocational College. As Principal, I am honored to lead an institution dedicated to transforming lives through quality technical and vocational education.
+  const description = content?.description || `I am delighted to extend a warm welcome to you on behalf of Kibra Technical and Vocational Training College, a premier institution dedicated to providing high-quality technical and vocational education. As the Principal, I take pride in our commitment to nurturing talent, fostering innovation, and preparing our students for successful careers in a rapidly evolving global landscape.
 
-Our college is committed to providing industry-relevant training that equips our students with practical skills and knowledge needed to excel in their chosen careers. We maintain strong partnerships with industry stakeholders to ensure our programs meet current market demands.
-
-I encourage all students to take full advantage of the excellent facilities, dedicated faculty, and comprehensive programs we offer. Together, we can build a brighter future for our community and nation.`;
+At Kibra TVC, we recognize the importance of practical skills and hands-on training in today's competitive world. State-of-the-art facilities, cutting-edge laboratories, and industry-relevant curriculum ensure that our students receive a comprehensive education that aligns with the demands of the modern workforce.`;
   const image = content?.image_url || principalImage;
 
   return (

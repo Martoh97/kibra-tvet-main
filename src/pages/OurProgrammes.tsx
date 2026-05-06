@@ -486,22 +486,22 @@ const OurProgrammes = () => {
                   <TableRow className="hover:bg-muted/30 transition-colors">
                     <TableCell className="font-medium">Level 6 (Diploma courses)</TableCell>
                     <TableCell>KCSE Mean Grade: C- & Above</TableCell>
-                    <TableCell className="font-semibold text-primary">KES. 35,000</TableCell>
+                    <TableCell className="font-semibold text-primary">KES. 22,396</TableCell>
                   </TableRow>
                   <TableRow className="hover:bg-muted/30 transition-colors">
                     <TableCell className="font-medium">Level 5 (Craft Certificate courses)</TableCell>
                     <TableCell>KCSE Mean Grade: D & Above</TableCell>
-                    <TableCell className="font-semibold text-primary">KES. 35,000</TableCell>
+                    <TableCell className="font-semibold text-primary">KES. 22,396</TableCell>
                   </TableRow>
                   <TableRow className="hover:bg-muted/30 transition-colors">
                     <TableCell className="font-medium">Level 4 (Artisan Courses)</TableCell>
                     <TableCell>KCSE Mean Grade: D- & Above</TableCell>
-                    <TableCell className="font-semibold text-primary">KES. 35,000</TableCell>
+                    <TableCell className="font-semibold text-primary">KES. 22,396</TableCell>
                   </TableRow>
                   <TableRow className="hover:bg-muted/30 transition-colors">
                     <TableCell className="font-medium">Level 3 (Vocational Artisan certificate)</TableCell>
                     <TableCell>KCPE Certificate</TableCell>
-                    <TableCell className="font-semibold text-primary">KES. 35,000</TableCell>
+                    <TableCell className="font-semibold text-primary">KES. 22,396</TableCell>
                   </TableRow>
                   <TableRow className="hover:bg-muted/30 transition-colors">
                     <TableCell className="font-medium">Short Courses</TableCell>

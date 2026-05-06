@@ -88,7 +88,7 @@ Our office ensures compliance with regulatory requirements and institutional pol
                     <h4 className="font-semibold mb-2">Contact Information</h4>
                     <div className="space-y-1 text-sm text-muted-foreground">
                       <p><strong>Email:</strong> registrar@kibratvc.ac.ke</p>
-                      <p><strong>Phone:</strong> +254 700 000 001</p>
+                      <p><strong>Phone:</strong> +254 716 066 759</p>
                       <p><strong>Office Hours:</strong> Monday - Friday, 8:00 AM - 5:00 PM</p>
                     </div>
                   </div>
