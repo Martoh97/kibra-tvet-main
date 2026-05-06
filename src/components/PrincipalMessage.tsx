@@ -46,8 +46,8 @@ export const PrincipalMessage = () => {
               asChild
               className="bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-full px-8 py-6"
             >
-              <Link to="/management/staff" className="flex items-center gap-2">
-                Meet Our Team <ArrowRight className="w-5 h-5" />
+              <Link to="/apply" className="flex items-center gap-2">
+                Apply for May 2026 Intake <ArrowRight className="w-5 h-5" />
               </Link>
             </Button>
           </div>
@@ -97,7 +97,7 @@ export const PrincipalMessage = () => {
                   className="bg-white hover:bg-gray-100 text-green-600 font-semibold rounded-full px-8"
                 >
                   <Link
-                    to="/download/prospectus"
+                    to="/downloads/Prospectus"
                     className="flex items-center gap-2"
                   >
                     Download <Download className="w-5 h-5" />

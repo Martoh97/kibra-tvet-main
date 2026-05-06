@@ -13,7 +13,7 @@ export const Footer = () => {
               A premier institution dedicated to providing high-quality technical and vocational education.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
+              <a href="https://www.facebook.com/share/1J1gR9SdJ1/" className="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
               <a href="#" className="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
@@ -32,8 +32,8 @@ export const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/mission-vision" className="text-white/80 hover:text-accent transition-colors">About Us</Link></li>
-              <li><Link to="/#departments" className="text-white/80 hover:text-accent transition-colors">Departments</Link></li>
+              <li><Link to="/about/history" className="text-white/80 hover:text-accent transition-colors">About Us</Link></li>
+              <li><Link to="/departments/ict" className="text-white/80 hover:text-accent transition-colors">Departments</Link></li>
               <li><Link to="/courses" className="text-white/80 hover:text-accent transition-colors">Courses</Link></li>
               <li><Link to="/admissions/entry-requirements" className="text-white/80 hover:text-accent transition-colors">Admissions</Link></li>
               <li><Link to="/downloads/prospectus" className="text-white/80 hover:text-accent transition-colors">Downloads</Link></li>

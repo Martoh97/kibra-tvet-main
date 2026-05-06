@@ -4,6 +4,7 @@ import heroImage1 from "@/assets/hero-graduation.jpg";
 import heroImage2 from "@/assets/hero-solar-graduates.jpg";
 import heroImage3 from "@/assets/hero-leadership-1.jpeg";
 import heroImage4 from "@/assets/hero-leadership-2.jpg";
+import heroImage5 from "@/assets/short-course.jpeg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
@@ -62,6 +63,16 @@ const defaultSlides: HeroSlide[] = [
     titleEnd: "",
     description: "Building a stronger community through education and skills training.",
     contentKey: "hero_slide_4",
+  },
+  {
+    id: 5,
+    image: heroImage5,
+    tag: "#Community Impact",
+    title: "Leaders",
+    highlight: "Driving Change through parnership",
+    titleEnd: "",
+    description: "Kibra short course by partners... ",
+    contentKey: "hero_slide_5",
   },
 ];
 
