@@ -95,19 +95,19 @@ export const Header = () => {
               <Facebook className="h-5 w-5" />
             </a>
             <a
-              href="#"
+              href="https://x.com/Kibra_tvc"
               className="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors"
             >
               <Twitter className="h-5 w-5" />
             </a>
             <a
-              href="#"
+              href="https://instagram.com/Kibra_tvc"
               className="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors"
             >
               <Instagram className="h-5 w-5" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/kibra-tvc-44955b408?utm_source=share_via&utm_content=profile&utm_medium=member_android"
               className="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors"
             >
               <Linkedin className="h-5 w-5" />

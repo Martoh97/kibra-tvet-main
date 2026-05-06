@@ -27,10 +27,8 @@ export const PrincipalMessage = () => {
 
             {/* Welcome Message */}
             <p className="text-gray-700 leading-relaxed mb-8">
-              I am delighted to welcome you to Kibra Technical and Vocational
-              College. Our commitment is to offer quality programs, activities,
-              and services designed to support, enrich, and elevate your
-              academic and professional growth.
+              I am delighted to extend a warm welcome to you on behalf of Kibra Technical and Vocational Training College, a premier institution dedicated to providing high-quality technical and vocational education. As the Principal, I take pride in our commitment to nurturing talent, fostering innovation, and preparing our students for successful careers in a rapidly evolving global landscape.<br></br><br></br>
+              At Kibra TVC, we recognize the importance of practical skills and hands-on training in today's competitive world. State-of-the-art facilities, cutting-edge laboratories, and industry-relevant curriculum ensure that our students receive a comprehensive education that aligns with the demands of the modern workforce.
             </p>
 
             {/* Principal Details */}
