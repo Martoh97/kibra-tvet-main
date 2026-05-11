@@ -95,7 +95,7 @@ export const PrincipalMessage = () => {
                   className="bg-white hover:bg-gray-100 text-green-600 font-semibold rounded-full px-8"
                 >
                   <Link
-                    to="/downloads/header-download/"
+                    to="/downloads/"
                     className="flex items-center gap-2"
                   >
                     Download <Download className="w-5 h-5" />
