@@ -133,10 +133,10 @@ Our office ensures compliance with regulatory requirements and institutional pol
                         </TableRow>
                       </TableHeader>
                       <TableBody>
-                        <TableRow><TableCell className="font-medium">1</TableCell><TableCell>Level 6 (Diploma courses)</TableCell><TableCell>KCSE Mean Grade: C- & Above</TableCell><TableCell className="text-right">KES. 35,000</TableCell></TableRow>
-                        <TableRow><TableCell className="font-medium">2</TableCell><TableCell>Level 5 (Craft Certificate courses)</TableCell><TableCell>KCSE Mean Grade: D & Above</TableCell><TableCell className="text-right">KES. 35,000</TableCell></TableRow>
-                        <TableRow><TableCell className="font-medium">3</TableCell><TableCell>Level 4 (Artisan Courses)</TableCell><TableCell>KCSE Mean Grade: D- & Above</TableCell><TableCell className="text-right">KES. 35,000</TableCell></TableRow>
-                        <TableRow><TableCell className="font-medium">4</TableCell><TableCell>Level 3 (Vocational Artisan certificate)</TableCell><TableCell>KCPE Certificate</TableCell><TableCell className="text-right">KES. 35,000</TableCell></TableRow>
+                        <TableRow><TableCell className="font-medium">1</TableCell><TableCell>Level 6 (Diploma courses)</TableCell><TableCell>KCSE Mean Grade: C- & Above</TableCell><TableCell className="text-right">KES. 22,396</TableCell></TableRow>
+                        <TableRow><TableCell className="font-medium">2</TableCell><TableCell>Level 5 (Craft Certificate courses)</TableCell><TableCell>KCSE Mean Grade: D & Above</TableCell><TableCell className="text-right">KES. 22,396</TableCell></TableRow>
+                        <TableRow><TableCell className="font-medium">3</TableCell><TableCell>Level 4 (Artisan Courses)</TableCell><TableCell>KCSE Mean Grade: D- & Above</TableCell><TableCell className="text-right">KES. 22,396</TableCell></TableRow>
+                        <TableRow><TableCell className="font-medium">4</TableCell><TableCell>Level 3 (Vocational Artisan certificate)</TableCell><TableCell>KCPE Certificate</TableCell><TableCell className="text-right">KES. 22,396</TableCell></TableRow>
                         <TableRow><TableCell className="font-medium">5</TableCell><TableCell>Short Courses</TableCell><TableCell>All are eligible</TableCell><TableCell className="text-right">KES. 15,000</TableCell></TableRow>
                       </TableBody>
                     </Table>
