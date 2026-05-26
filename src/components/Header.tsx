@@ -323,6 +323,11 @@ export const Header = () => {
                             Student Handbook
                           </NavigationMenuLink>
                         </Link>
+                        <a href="/downloads/Kibra TVC Trainees Guide and Regulations.pdf"download="Kibra TVC Trainees Guide and Regulations.pdf">
+  <NavigationMenuLink className="block p-3 rounded-md hover:bg-accent hover:text-accent-foreground">
+    Kibra TVC Trainees Guide and Regulations
+  </NavigationMenuLink>
+</a>
                       </div>
                     </NavigationMenuContent>
                   </NavigationMenuItem>
