@@ -1,73 +1,105 @@
-# Welcome to your Lovable project
+# KIBRA TECHNICAL AND VOCATIONAL COLLEGE
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/7bd27676-dffc-4b29-9812-5e7b313e8f4d
+This repository contains the source code for the project.
 
-## How can I edit this code?
+## Getting Started
 
-There are several ways of editing your application.
+### Prerequisites
 
-**Use Lovable**
+Before running the project locally, ensure you have:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7bd27676-dffc-4b29-9812-5e7b313e8f4d) and start prompting.
+- Node.js
+- npm (or pnpm/yarn)
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation & Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will start with hot reloading enabled.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Editing the Project
 
-**Use GitHub Codespaces**
+### Use Your Preferred IDE
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Clone the repository, make your changes locally, and push them to GitHub.
 
-## What technologies are used for this project?
+### Edit Directly on GitHub
+
+1. Navigate to the file you want to edit.
+2. Click the pencil (Edit) icon.
+3. Make your changes.
+4. Commit the changes.
+
+### Use GitHub Codespaces
+
+1. Open the repository on GitHub.
+2. Click the **Code** button.
+3. Select the **Codespaces** tab.
+4. Create a new Codespace.
+5. Edit, commit, and push your changes.
+
+## Tech Stack
 
 This project is built with:
 
 - Vite
 - TypeScript
 - React
-- shadcn-ui
+- shadcn/ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Available Scripts
 
-Simply open [Lovable](https://lovable.dev/projects/7bd27676-dffc-4b29-9812-5e7b313e8f4d) and click on Share -> Publish.
+### Start Development Server
 
-## Can I connect a custom domain to my Lovable project?
+```sh
+npm run dev
+```
 
-Yes, you can!
+### Build for Production
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```sh
+npm run build
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Preview Production Build
+
+```sh
+npm run preview
+```
+
+## Deployment
+
+You can deploy this project to any hosting platform that supports static frontend applications, including:
+
+- Vercel
+- Netlify
+- Cloudflare Pages
+- GitHub Pages
+- Firebase Hosting
+
+Build the project before deployment:
+
+```sh
+npm run build
+```
+
+The production files will be generated in the `dist/` directory.
+
+## License
+
+Specify your project's license here.

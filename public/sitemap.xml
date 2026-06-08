@@ -1,37 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.kibratvc.ac.ke/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/about/history</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/about/mission-vision</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/about/service-charter</loc><priority>0.5</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/our-programmes</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/courses</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/departments/ict</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/departments/building</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/departments/cosmetology</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/departments/fashion</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/departments/electrical</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/departments/hospitality</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/departments/mechanical</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/departments/business-liberal-studies</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/management/board-of-governors</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/management/principal</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/management/deputy-principals</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/management/registrar</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/management/dean-of-students</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/admissions/registration</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/admissions/entry-requirements</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/admissions/payment-details</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/admissions/rpl</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/apply</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/contact</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/downloads/application-forms</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/downloads/prospectus</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/downloads/course-catalogs</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/downloads/fee-structures</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/downloads/academic-calendar</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/downloads/student-handbook</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/stories/jitume-training</loc><priority>0.5</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/stories/practical-sessions</loc><priority>0.5</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.kibratvc.ac.ke/stories/environmental-stewardship</loc><priority>0.5</priority><changefreq>monthly</changefreq></url>
+
+  <url>
+    <loc>https://kibratvc.ac.ke/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- ABOUT HUB -->
+  <url><loc>https://kibratvc.ac.ke/about</loc><priority>0.9</priority></url>
+  <url><loc>https://kibratvc.ac.ke/about/history</loc><priority>0.7</priority></url>
+  <url><loc>https://kibratvc.ac.ke/about/mission-vision</loc><priority>0.7</priority></url>
+  <url><loc>https://kibratvc.ac.ke/about/service-charter</loc><priority>0.6</priority></url>
+
+  <!-- COURSES -->
+  <url><loc>https://kibratvc.ac.ke/courses</loc><priority>0.9</priority></url>
+
+  <!-- DEPARTMENTS HUB -->
+  <url><loc>https://kibratvc.ac.ke/departments</loc><priority>0.9</priority></url>
+
+  <!-- DEPARTMENTS -->
+  <url><loc>https://kibratvc.ac.ke/departments/ict</loc></url>
+  <url><loc>https://kibratvc.ac.ke/departments/building</loc></url>
+  <url><loc>https://kibratvc.ac.ke/departments/cosmetology</loc></url>
+  <url><loc>https://kibratvc.ac.ke/departments/fashion</loc></url>
+  <url><loc>https://kibratvc.ac.ke/departments/electrical</loc></url>
+  <url><loc>https://kibratvc.ac.ke/departments/hospitality</loc></url>
+  <url><loc>https://kibratvc.ac.ke/departments/business</loc></url>
+  <url><loc>https://kibratvc.ac.ke/departments/mechanical</loc></url>
+
+  <!-- ADMISSIONS HUB -->
+  <url><loc>https://kibratvc.ac.ke/admissions</loc><priority>0.9</priority></url>
+  <url><loc>https://kibratvc.ac.ke/admissions/registration</loc></url>
+  <url><loc>https://kibratvc.ac.ke/admissions/entry-requirements</loc></url>
+  <url><loc>https://kibratvc.ac.ke/admissions/payment-details</loc></url>
+  <url><loc>https://kibratvc.ac.ke/admissions/rpl</loc></url>
+
+  <!-- APPLY -->
+  <url><loc>https://kibratvc.ac.ke/apply</loc><priority>1.0</priority></url>
+
+  <!-- CONTACT -->
+  <url><loc>https://kibratvc.ac.ke/contact</loc><priority>0.8</priority></url>
+
+  <!-- DOWNLOADS -->
+  <url><loc>https://kibratvc.ac.ke/downloads</loc></url>
+
+  <!-- NEWS -->
+  <url><loc>https://kibratvc.ac.ke/news</loc></url>
+
 </urlset>
