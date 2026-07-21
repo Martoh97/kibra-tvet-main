@@ -45,7 +45,7 @@ export const PrincipalMessage = () => {
               className="bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-full px-8 py-6"
             >
               <Link to="/apply" className="flex items-center gap-2">
-                Apply for May 2026 Intake <ArrowRight className="w-5 h-5" />
+                Apply for September 2026 Intake <ArrowRight className="w-5 h-5" />
               </Link>
             </Button>
           </div>
