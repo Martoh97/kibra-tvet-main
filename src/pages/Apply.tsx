@@ -446,8 +446,7 @@ const Apply = () => {
                     <Phone className="h-5 w-5 text-primary mt-1" />
                     <div>
                       <h4 className="font-semibold mb-1">Call Us</h4>
-                      <p className="text-sm text-muted-foreground">+254 700 000 000</p>
-                      <p className="text-sm text-muted-foreground">+254 733 000 000</p>
+                      <p className="text-sm text-muted-foreground">+254 716 066 759</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
