@@ -39,6 +39,7 @@ import PracticalSessions from "./pages/stories/PracticalSessions";
 import EnvironmentalStewardship from "./pages/stories/EnvironmentalStewardship";
 import Apply from "./pages/Apply";
 import Contact from "./pages/Contact";
+import FAQs from "./pages/FAQs";
 import RPL from "./pages/admissions/RPL";
 import AdminLogin from "./pages/admin/Login";
 import AdminDashboard from "./pages/admin/Dashboard";
@@ -87,6 +88,7 @@ const App = () => (
             <Route path="/admissions/rpl" element={<RPL />} />
             <Route path="/apply" element={<Apply />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/faqs" element={<FAQs />} />
             <Route path="/stories/jitume-training" element={<JitumeTraining />} />
             <Route path="/stories/practical-sessions" element={<PracticalSessions />} />
             <Route path="/stories/environmental-stewardship" element={<EnvironmentalStewardship />} />
