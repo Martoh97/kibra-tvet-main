@@ -31,6 +31,7 @@ export const Header = () => {
   const [managementOpen, setManagementOpen] = useState(false);
   const [departmentsOpen, setDepartmentsOpen] = useState(false);
   const [downloadsOpen, setDownloadsOpen] = useState(false);
+  const [opportunitiesOpen, setOpportunitiesOpen] = useState(false);
 
   // Service Charter download + open (used by desktop and mobile)
   const handleServiceCharterClick = () => {
@@ -139,7 +140,7 @@ export const Header = () => {
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center gap-2 flex-1 justify-center text-base">
+            <div className="hidden lg:flex items-center gap-4 flex-1 justify-center text-base">
               <Link
                 to="/"
                 className="font-bold text-base hover:text-purple-600"
@@ -328,6 +329,29 @@ export const Header = () => {
     Kibra TVC Trainees Guide and Regulations
   </NavigationMenuLink>
 </a>
+                      </div>
+                    </NavigationMenuContent>
+                  </NavigationMenuItem>
+                </NavigationMenuList>
+              </NavigationMenu>
+
+              {/* OPPORTUNITIES */}
+              <NavigationMenu>
+                <NavigationMenuList>
+                  <NavigationMenuItem>
+                    <NavigationMenuTrigger className="font-bold text-base hover:text-purple-600">
+                      OPPORTUNITIES
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                      <div className="grid min-w-[250px] gap-3 p-4">
+                        <Link to="/opportunities/tenders">
+                          <NavigationMenuLink className="block p-3 rounded-md hover:bg-accent hover:text-accent-foreground">
+                            <div className="font-bold">Tenders</div>
+                            <p className="text-muted-foreground text-sm">
+                              Tender notices and documents
+                            </p>
+                          </NavigationMenuLink>
+                        </Link>
                       </div>
                     </NavigationMenuContent>
                   </NavigationMenuItem>
@@ -596,6 +620,34 @@ export const Header = () => {
                             onClick={() => setMobileMenuOpen(false)}
                           >
                             Student Handbook
+                          </Link>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* OPPORTUNITIES */}
+                    <div>
+                      <button
+                        type="button"
+                        aria-expanded={opportunitiesOpen}
+                        className="flex items-center justify-between w-full py-2"
+                        onClick={() => setOpportunitiesOpen((v) => !v)}
+                      >
+                        <span>OPPORTUNITIES</span>
+                        <ChevronDown
+                          className={`h-5 w-5 transition-transform ${
+                            opportunitiesOpen ? "rotate-180" : ""
+                          }`}
+                        />
+                      </button>
+
+                      {opportunitiesOpen && (
+                        <div className="flex flex-col ml-4 gap-2 text-sm">
+                          <Link
+                            to="/opportunities/tenders"
+                            onClick={() => setMobileMenuOpen(false)}
+                          >
+                            Tenders
                           </Link>
                         </div>
                       )}

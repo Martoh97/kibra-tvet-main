@@ -43,6 +43,7 @@ import FAQs from "./pages/FAQs";
 import RPL from "./pages/admissions/RPL";
 import AdminLogin from "./pages/admin/Login";
 import AdminDashboard from "./pages/admin/Dashboard";
+import Tenders from "./pages/opportunities/Tenders";
 
 
 
@@ -94,6 +95,7 @@ const App = () => (
             <Route path="/stories/environmental-stewardship" element={<EnvironmentalStewardship />} />
             <Route path="/admin/login" element={<AdminLogin />} />
             <Route path="/admin" element={<AdminDashboard />} />
+            <Route path="/opportunities/tenders" element={<Tenders />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
